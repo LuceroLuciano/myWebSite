@@ -7,7 +7,7 @@ let typewriter = new Typewriter(app, {
 
 typewriter
     .pauseFor(2500) // Agrega evento de pausa a la cola por milisegundos
-    .typeString('Desarrollo sitios web y escribo articulos sobre programación.') // Agrega los caracteres de la cola de la cadena
+    .typeString('Desarrolladora Web en formación 💜') // Agrega los caracteres de la cola de la cadena
     .pauseFor(200)
     .deleteChars(10) // Borra los caracteres de la cola de la cadena
     .start(); // inicia el bucle de eventos

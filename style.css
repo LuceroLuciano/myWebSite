@@ -2,6 +2,7 @@
 
 .navbar {
     padding: 2rem;
+    /*background-color: #0A3871*/; /* #1b1b32; /*#f5f6f7*/
     background-color: #f5f6f7;
 }
 
@@ -11,8 +12,15 @@
 }
 
 /* mis estilos */
+.navbar .navbar-collapse .nav-link {
+    /* color: #F3F5FC; */
+    color: #1b1b32;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
 .navbar .navbar-collapse .nav-link:hover {
-    color: #0a0a23;    
+    color: rgb(13, 119, 253); /*#0a0a23*/;    
 }
 
 
@@ -28,16 +36,20 @@ section {
 h1 {
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
+    /* font-family: 'Dela Gothic One', cursive; */
+
+    
 }
 
 .seccion-oscura {
     color: white;  /* Color de texto */
-    background-color: #1b1b32; /* color de fondo */
+    /*background-color: #1b1b32;*/ /* color de fondo */
+    background-color: #0A3871;
 }
 
 .seccion-clara {
     color: black; /* Color de texto */
-    background-color: white; /* color de fondo */
+    background-color: #F3F5FC; /*white;*/ /* color de fondo */
 }
 
 .seccion-titulo {
@@ -88,7 +100,13 @@ h1 {
 
 .hero-principal h2 {
     font-size: 1.5rem;
-    color: #615151;
+    /* color: #615151; */
+    
+}
+
+.hero-principal .text-primary-color {
+    color: rgb(13, 119, 253);
+    /* color: #0A3871; */
 }
 
 /* sobre mi */
@@ -119,7 +137,8 @@ h1 {
 
 .experiencia .columna:hover {
     color: white;
-    background-color: #1b1b32;
+    /* background-color: #1b1b32; */
+    background-color: #0A3871;
 }
 
 .experiencia i {
@@ -194,7 +213,8 @@ h1 {
 }
 
 .overlay .iconos-contenedor {
-    display: flex;
+    /* display: flex; */
+    align-items: center;
 }
 
 .overlay i {
@@ -206,7 +226,7 @@ h1 {
 /* Articulos */
 
 .articulos {
-    min-height: 500px; /* para la altura minima */
+    min-height: 600px; /* tenia 500 para la altura minima */
     padding: 30px;
 }
 
@@ -282,7 +302,8 @@ h1 {
 
 .contacto .rectangulo {
     margin-top: -5rem;
-    background-color: rgb(13, 119, 253);
+    background-color: rgb(13, 119, 253); 
+    /* background-color: rgba(127,86,197,1); */
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
 }
